@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  utilizador_id: 1
+  empresa_id: 1
+  cargo: MyString
+  data_entrada: 2013-11-29 22:42:42
+  data_saida: 2013-11-29 22:42:42
+
+two:
+  utilizador_id: 1
+  empresa_id: 1
+  cargo: MyString
+  data_entrada: 2013-11-29 22:42:42
+  data_saida: 2013-11-29 22:42:42

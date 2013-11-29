@@ -1,0 +1,29 @@
+<h1>Listing competencia</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Utilizador</th>
+      <th>Nome</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @competencia.each do |competencium| %>
+      <tr>
+        <td><%= competencium.utilizador_id %></td>
+        <td><%= competencium.nome %></td>
+        <td><%= link_to 'Show', competencium %></td>
+        <td><%= link_to 'Edit', edit_competencium_path(competencium) %></td>
+        <td><%= link_to 'Destroy', competencium, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Competencium', new_competencium_path %>

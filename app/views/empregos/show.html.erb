@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Utilizador:</strong>
+  <%= @emprego.utilizador_id %>
+</p>
+
+<p>
+  <strong>Empresa:</strong>
+  <%= @emprego.empresa_id %>
+</p>
+
+<p>
+  <strong>Cargo:</strong>
+  <%= @emprego.cargo %>
+</p>
+
+<p>
+  <strong>Data entrada:</strong>
+  <%= @emprego.data_entrada %>
+</p>
+
+<p>
+  <strong>Data saida:</strong>
+  <%= @emprego.data_saida %>
+</p>
+
+<%= link_to 'Edit', edit_emprego_path(@emprego) %> |
+<%= link_to 'Back', empregos_path %>

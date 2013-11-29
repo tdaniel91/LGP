@@ -1,0 +1,35 @@
+<h1>Listing empregos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Utilizador</th>
+      <th>Empresa</th>
+      <th>Cargo</th>
+      <th>Data entrada</th>
+      <th>Data saida</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @empregos.each do |emprego| %>
+      <tr>
+        <td><%= emprego.utilizador_id %></td>
+        <td><%= emprego.empresa_id %></td>
+        <td><%= emprego.cargo %></td>
+        <td><%= emprego.data_entrada %></td>
+        <td><%= emprego.data_saida %></td>
+        <td><%= link_to 'Show', emprego %></td>
+        <td><%= link_to 'Edit', edit_emprego_path(emprego) %></td>
+        <td><%= link_to 'Destroy', emprego, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Emprego', new_emprego_path %>

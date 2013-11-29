@@ -1,4 +1,20 @@
 LGP::Application.routes.draw do
+  resources :competencia
+
+  resources :cursos
+
+  resources :empregos
+
+  resources :empresas
+
+  resources :contactos
+
+  resources :noticia
+
+  resources :utilizadors
+
+  get "home/index"
+  root :to => "home#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  historia: MyString
+  data_criacao: 2013-11-29 22:42:27
+  email: MyString
+  telefone: 1
+  morada: MyString
+  areas: MyString
+  projectos: MyString
+  admin_id: 1
+
+two:
+  nome: MyString
+  historia: MyString
+  data_criacao: 2013-11-29 22:42:27
+  email: MyString
+  telefone: 1
+  morada: MyString
+  areas: MyString
+  projectos: MyString
+  admin_id: 1

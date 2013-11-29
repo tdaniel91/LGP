@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  utilizador_id: 1
+  nome: MyString
+  univ: MyString
+  ano: 2013-11-29 22:42:56
+
+two:
+  utilizador_id: 1
+  nome: MyString
+  univ: MyString
+  ano: 2013-11-29 22:42:56
