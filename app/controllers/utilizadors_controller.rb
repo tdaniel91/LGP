@@ -10,7 +10,6 @@ class UtilizadorsController < ApplicationController
   # GET /utilizadors/1
   # GET /utilizadors/1.json
   def show
-    @noticias = @utilizador.noticium
   end
 
   # GET /utilizadors/new
@@ -66,6 +65,10 @@ class UtilizadorsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_utilizador
       @utilizador = Utilizador.find(params[:id])
+
+      @noticias = @utilizador.noticium
+      @competencias = @utilizador.competencium
+      @cursos = @utilizador.curso
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

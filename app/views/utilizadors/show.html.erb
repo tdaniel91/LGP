@@ -24,19 +24,30 @@
   <strong>Telefone:</strong>
   <%= @utilizador.telefone %>
 </p>
+<hr>
+    <strong>Competencias:</strong>
+    <% @competencias.each do |c| %>
+        <p>- <%= c.nome %> </p>
+    <% end %>
+<p><%= link_to 'Nova competencia', new_competencium_path(:utilizador_id => @utilizador.id) %> </p>
+<hr>
 
+<strong>Cursos:</strong>
+<ul>
+<% @cursos.each do |c| %>
+    <li><b> <%= c.nome %> </b> - <%= c.univ %> - <%= c.ano %> </li>
+<% end %>
+</ul>
+<p><%= link_to 'Novo curso', new_curso_path(:utilizador_id => @utilizador.id) %> </p>
+<hr>
 
-
-
-<p>
-
-  <strong>Noticias:</strong>
-  <% @noticias.each do |n| %>
+<strong>Noticias:</strong>
+<% @noticias.each do |n| %>
     <h3> <%= link_to n.titulo, n %> </h3>
     <p>- <%= n.texto %> </p>
     <p>- <%= n.img %> </p>
-  <% end %>
-</p>
+<% end %>
+
 
 <p><%= link_to 'Nova noticia', new_noticium_path(:utilizador_id => @utilizador.id) %> </p>
 

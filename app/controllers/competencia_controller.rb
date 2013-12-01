@@ -14,7 +14,11 @@ class CompetenciaController < ApplicationController
 
   # GET /competencia/new
   def new
-    @competencium = Competencium.new
+    if params.has_key? :utilizador_id
+      @competencium = Competencium.new(:utilizador_id => params[:utilizador_id])
+    else
+      @competencium = Competencium.new
+    end
   end
 
   # GET /competencia/1/edit

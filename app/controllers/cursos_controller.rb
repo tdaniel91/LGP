@@ -14,7 +14,11 @@ class CursosController < ApplicationController
 
   # GET /cursos/new
   def new
-    @curso = Curso.new
+    if params.has_key? :utilizador_id
+      @curso = Curso.new(:utilizador_id => params[:utilizador_id])
+    else
+      @curso = Curso.new
+    end
   end
 
   # GET /cursos/1/edit
