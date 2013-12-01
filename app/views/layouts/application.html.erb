@@ -9,6 +9,10 @@
 <body>
 
 <%= yield %>
+<br>
+ <%= link_to 'Home', :controller =>'home', :action => :index %>
+ | <%= link_to 'Utilizadores', utilizadors_path %>
+
 
 </body>
 </html>

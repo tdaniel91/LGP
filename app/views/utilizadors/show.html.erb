@@ -25,5 +25,20 @@
   <%= @utilizador.telefone %>
 </p>
 
+
+
+
+<p>
+
+  <strong>Noticias:</strong>
+  <% @noticias.each do |n| %>
+    <h3> <%= link_to n.titulo, n %> </h3>
+    <p>- <%= n.texto %> </p>
+    <p>- <%= n.img %> </p>
+  <% end %>
+</p>
+
+<p><%= link_to 'Nova noticia', new_noticium_path(:utilizador_id => @utilizador.id) %> </p>
+
 <%= link_to 'Edit', edit_utilizador_path(@utilizador) %> |
 <%= link_to 'Back', utilizadors_path %>

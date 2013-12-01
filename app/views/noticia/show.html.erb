@@ -6,6 +6,11 @@
 </p>
 
 <p>
+  <strong>Titulo:</strong>
+  <%= @noticium.titulo %>
+</p>
+
+<p>
   <strong>Img:</strong>
   <%= @noticium.img %>
 </p>
@@ -15,10 +20,6 @@
   <%= @noticium.texto %>
 </p>
 
-<p>
-  <strong>Titulo:</strong>
-  <%= @noticium.titulo %>
-</p>
 
 <%= link_to 'Edit', edit_noticium_path(@noticium) %> |
 <%= link_to 'Back', noticia_path %>

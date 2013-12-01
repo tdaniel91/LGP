@@ -14,7 +14,11 @@ class NoticiaController < ApplicationController
 
   # GET /noticia/new
   def new
-    @noticium = Noticium.new
+    if params.has_key? :utilizador_id
+      @noticium = Noticium.new(:utilizador_id => params[:utilizador_id])
+    else
+      @noticium = Noticium.new
+    end
   end
 
   # GET /noticia/1/edit

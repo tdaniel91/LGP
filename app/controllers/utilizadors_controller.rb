@@ -10,6 +10,7 @@ class UtilizadorsController < ApplicationController
   # GET /utilizadors/1
   # GET /utilizadors/1.json
   def show
+    @noticias = @utilizador.noticium
   end
 
   # GET /utilizadors/new
@@ -71,4 +72,5 @@ class UtilizadorsController < ApplicationController
     def utilizador_params
       params.require(:utilizador).permit(:nome, :data_nascimento, :localidade, :email, :telefone)
     end
+
 end
