@@ -45,5 +45,16 @@
   <%= @empresa.admin_id %>
 </p>
 
+
+<strong>Empregados</strong>
+<% @empregados.each do |e| %>
+    <p><b> <%= link_to Utilizador.find(e.utilizador_id).nome, Utilizador.find(e.utilizador_id) %> </b>
+      - <%= e.cargo %> - <%= e.data_entrada %> // <%= e.data_saida %> </p>
+<% end %>
+<p><%= link_to 'Novo Emprego', new_emprego_path(:utilizador_id => @empresa.id) %> </p>
+<hr>
+<hr>
+
+
 <%= link_to 'Edit', edit_empresa_path(@empresa) %> |
 <%= link_to 'Back', empresas_path %>

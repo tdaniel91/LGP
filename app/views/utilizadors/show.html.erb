@@ -47,9 +47,27 @@
     <p>- <%= n.texto %> </p>
     <p>- <%= n.img %> </p>
 <% end %>
-
-
 <p><%= link_to 'Nova noticia', new_noticium_path(:utilizador_id => @utilizador.id) %> </p>
+<hr>
+
+<strong>Empregos</strong>
+<% @empregos.each do |e| %>
+    <p><b> <%= link_to Empresa.find(e.empresa_id).nome, Empresa.find(e.empresa_id) %> </b>
+    - <%= e.cargo %> - <%= e.data_entrada %> // <%= e.data_saida %> </p>
+<% end %>
+<p><%= link_to 'Novo Emprego', new_emprego_path(:utilizador_id => @utilizador.id) %> </p>
+<hr>
+
+<strong>Contactos</strong>
+<% @contactos.each do |c| #TODO CONFIRMAR %>
+    <p><b> <%= link_to Utilizador.find(c.utilizador2_id).nome, Utilizador.find(c.utilizador2_id) %> </b>
+      - <%= c.estado %>  </p>
+<% end %>
+<hr>
+<hr>
+
+
+
 
 <%= link_to 'Edit', edit_utilizador_path(@utilizador) %> |
 <%= link_to 'Back', utilizadors_path %>

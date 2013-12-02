@@ -6,6 +6,7 @@ class CreateUtilizadors < ActiveRecord::Migration
       t.string :localidade
       t.string :email
       t.integer :telefone
+      t.integer :privacidade
 
       t.timestamps
     end

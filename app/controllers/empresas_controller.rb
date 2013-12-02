@@ -65,6 +65,7 @@ class EmpresasController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_empresa
       @empresa = Empresa.find(params[:id])
+      @empregados = @empresa.emprego
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

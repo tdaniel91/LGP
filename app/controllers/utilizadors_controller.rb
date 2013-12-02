@@ -69,6 +69,8 @@ class UtilizadorsController < ApplicationController
       @noticias = @utilizador.noticium
       @competencias = @utilizador.competencium
       @cursos = @utilizador.curso
+      @empregos = @utilizador.emprego
+      @contactos = @utilizador.contacto #TODO CONFIRMAR
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
