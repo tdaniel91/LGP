@@ -70,7 +70,21 @@ class UtilizadorsController < ApplicationController
       @competencias = @utilizador.competencium
       @cursos = @utilizador.curso
       @empregos = @utilizador.emprego
-      @contactos = @utilizador.contacto #TODO CONFIRMAR
+      @contactos = @utilizador.contacto
+      @contactos_aceites = Array.new
+      @contactos.each do |c|
+        if c.estado == "Aceite"
+          @contactos_aceites.push(c)
+        end
+      end
+      @colegas = Empresa.find(@empregos.last.empresa_id).emprego
+#      @contactos_colegas = Array.new
+#      @contactos_aceites.each do |c|
+#        if @empregos.last == Utilizador.find(c.utilizador2_id).emprego.last
+#          @contactos_colegas.push(c)
+#        end
+#      end
+
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

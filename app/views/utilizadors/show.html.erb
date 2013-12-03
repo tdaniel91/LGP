@@ -59,9 +59,15 @@
 <hr>
 
 <strong>Contactos</strong>
-<% @contactos.each do |c| #TODO CONFIRMAR %>
+<% @contactos_aceites.each do |c| %>
     <p><b> <%= link_to Utilizador.find(c.utilizador2_id).nome, Utilizador.find(c.utilizador2_id) %> </b>
       - <%= c.estado %>  </p>
+<% end %>
+<hr>
+<strong>Colegas</strong>
+<% @colegas.each do |c| #TODO CONFIRMAR %>
+    <p><b> <%= link_to Utilizador.find(c.utilizador_id).nome, Utilizador.find(c.utilizador_id) %> </b>
+      - <%= c.cargo %>  </p>
 <% end %>
 <hr>
 <hr>
