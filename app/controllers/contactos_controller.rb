@@ -69,6 +69,6 @@ class ContactosController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def contacto_params
-      params.require(:contacto).permit(:utilizador1_id, :utilizador2_id, :estado)
+      params.require(:contacto).permit(:utilizador_id, :utilizador2_id, :estado)
     end
 end

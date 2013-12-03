@@ -4,36 +4,33 @@
     <list default="true" id="163a8646-0cdc-4932-89a3-3e8f485b2cd5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20131129224145_create_utilizadors.rb" afterPath="$PROJECT_DIR$/db/migrate/20131129224145_create_utilizadors.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20131129224213_create_contactos.rb" afterPath="$PROJECT_DIR$/db/migrate/20131129224213_create_contactos.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empregos/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/empregos/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contactos/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/contactos/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/contacto.rb" afterPath="$PROJECT_DIR$/app/models/contacto.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/emprego.rb" afterPath="$PROJECT_DIR$/app/models/emprego.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/empresa.rb" afterPath="$PROJECT_DIR$/app/models/empresa.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/empresas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/empresas_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empregos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/empregos/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empregos/new.html.erb" afterPath="$PROJECT_DIR$/app/views/empregos/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/contactos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/contactos_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contactos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contactos/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contactos/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/contactos/index.json.jbuilder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/show.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contactos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/contactos/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/utilizadors/show.html.erb" afterPath="$PROJECT_DIR$/app/views/utilizadors/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/utilizador.rb" afterPath="$PROJECT_DIR$/app/models/utilizador.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/utilizadors_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/utilizadors_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LGP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385951778873" ignored="false" />
+    <file path="/Dummy.txt" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1386080709357" ignored="false" />
     <file path="/routes.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385768833929" ignored="false" />
     <file path="/utilizador.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385948615323" ignored="false" />
     <file path="/noticium.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385770879490" ignored="false" />
-    <file path="/application.html.erb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385948049926" ignored="false" />
+    <file path="/application.html.erb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1386088356654" ignored="false" />
     <file path="$USER_HOME$/Desktop/RoR/app/views/layouts/application.html.erb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385771362849" ignored="false" />
-    <file path="/seeds.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385951867452" ignored="false" />
+    <file path="/seeds.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1386086629652" ignored="false" />
     <file path="/a.dummy" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385773354796" ignored="false" />
     <file path="/home_controller.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385773739748" ignored="false" />
     <file path="$USER_HOME$/Desktop/costaseco-modelbrands-daweb-bdc80e25905a/db/seeds.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385774485649" ignored="false" />
-    <file path="/show.html.erb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385952255638" ignored="false" />
+    <file path="/show.html.erb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1386088256018" ignored="false" />
     <file path="/new.html.erb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385778333598" ignored="false" />
-    <file path="/utilizadors_controller.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385952280422" ignored="false" />
+    <file path="/utilizadors_controller.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1386088175970" ignored="false" />
     <file path="/noticia_controller.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385870890680" ignored="false" />
     <file path="/competencium.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385927610498" ignored="false" />
     <file path="/curso.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385931452315" ignored="false" />
@@ -43,7 +40,7 @@
     <file path="/empresas_controller.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385948004386" ignored="false" />
     <file path="/contacto.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385948595818" ignored="false" />
     <file path="/schema.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385951639070" ignored="false" />
-    <file path="/20131129224213_create_contactos.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385951378659" ignored="false" />
+    <file path="/20131129224213_create_contactos.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385952770581" ignored="false" />
     <file path="/20131129224145_create_utilizadors.rb" changelist="163a8646-0cdc-4932-89a3-3e8f485b2cd5" time="1385951421336" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,25 +64,16 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/utilizadors/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="42" selection-start="1494" selection-end="1494" vertical-scroll-proportion="-20.923077">
+            <state line="60" column="36" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-19.615385">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="27" selection-start="2310" selection-end="2310" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20131129224145_create_utilizadors.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20131129224145_create_utilizadors.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="247" selection-end="258" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="276" selection-end="276" vertical-scroll-proportion="0.18">
               <folding />
             </state>
           </provider>
@@ -94,25 +82,25 @@
       <file leaf-file-name="utilizadors_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/utilizadors_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="55" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.0">
+            <state line="79" column="64" selection-start="2193" selection-end="2193" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <file leaf-file-name="empresas_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/empresas_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="198" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
+            <state line="67" column="6" selection-start="1671" selection-end="1701" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20131129224213_create_contactos.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20131129224213_create_contactos.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/empresas/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="123" selection-end="123" vertical-scroll-proportion="0.05821918">
+            <state line="28" column="68" selection-start="388" selection-end="388" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
@@ -136,22 +124,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/empresa.rb" />
-        <option value="$PROJECT_DIR$/app/models/emprego.rb" />
-        <option value="$PROJECT_DIR$/app/views/empregos/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/empregos/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/empregos/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/empresas_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/empresas/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/contacto.rb" />
         <option value="$PROJECT_DIR$/app/models/utilizador.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131129224213_create_contactos.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131129224145_create_utilizadors.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131203145628_add_privacidade_to_utilizadors.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/app/views/contactos/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contactos/index.json.jbuilder" />
+        <option value="$PROJECT_DIR$/app/views/contactos/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contactos/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/contactos_controller.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/views/utilizadors/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/utilizadors_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/utilizadors/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -188,6 +176,7 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,6 +317,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="empresas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LGP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LGP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contactos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LGP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LGP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -360,24 +393,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LGP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LGP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="editor" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Rails.Development: LGP">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -569,7 +623,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14381886" sideWeight="0.6707317" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14565483" sideWeight="0.6707317" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -645,106 +699,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/empregos/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="0.7" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/empresas/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="74" selection-start="932" selection-end="932" vertical-scroll-proportion="-29.423077" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/noticium.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="38" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/empresa.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/curso.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/contacto.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="60" selection-end="60" vertical-scroll-proportion="0.019406393">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/utilizador.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/contactos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="142" selection-end="142" vertical-scroll-proportion="0.097031966">
+        <state line="71" column="50" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-27.08">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/competencium.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/contactos/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/empresas_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/contactos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="54" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.6895459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="430" selection-end="430" vertical-scroll-proportion="0.25785482" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131129224145_create_utilizadors.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="247" selection-end="258" vertical-scroll-proportion="0.0">
+        <state line="17" column="35" selection-start="297" selection-end="297" vertical-scroll-proportion="-11.115385">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/utilizadors/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="27" selection-start="2310" selection-end="2310" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/utilizadors/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131203151655_remove_utilizador_id_from_contactos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="42" selection-start="1494" selection-end="1494" vertical-scroll-proportion="-20.923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/utilizadors_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="55" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="198" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
+        <state line="45" column="35" selection-start="4237" selection-end="4237" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131129224213_create_contactos.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/contactos/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="123" selection-end="123" vertical-scroll-proportion="0.05821918">
+        <state line="4" column="26" selection-start="96" selection-end="96" vertical-scroll-proportion="0.08202654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contactos/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="451" selection-end="451" vertical-scroll-proportion="0.3">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/empresas/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="68" selection-start="388" selection-end="388" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/empresas_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="6" selection-start="1671" selection-end="1701" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/utilizadors_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="64" selection-start="2193" selection-end="2193" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/utilizadors/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="36" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-19.615385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/cursos.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="276" selection-end="276" vertical-scroll-proportion="0.18">
           <folding />
         </state>
       </provider>

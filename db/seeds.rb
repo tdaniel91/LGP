@@ -14,9 +14,10 @@ Empresa.delete_all
 Noticium.delete_all
 Utilizador.delete_all
 
-Utilizador.create(:id =>"2", :nome => "Tiago", :data_nascimento => DateTime.parse("15/02/1990 17:00"), :localidade => "Lisboa", :email => "sample@email.com", :telefone => "111222333", :privacidade => "111222333")
-Utilizador.create(:id =>"3", :nome => "Filipe", :data_nascimento => DateTime.parse("09/01/1991 17:00"), :localidade => "Caparica", :email => "sou_um_email@mail.com", :telefone => "444555666", :privacidade =>"0")
-Utilizador.create(:id =>"4", :nome => "Daniel", :data_nascimento => DateTime.parse("02/03/1989 17:00"), :localidade => "Almada", :email => "sou_outro_email@mail.com", :telefone => "777888999", :privacidade =>"0")
+Utilizador.create(:id =>"2", :nome => "Tiago", :data_nascimento => DateTime.parse("15/02/1990 17:00"), :localidade => "Lisboa", :email => "sample@email.com", :telefone => "111222333", :privacidade => "1", :frase =>"Acreditar é essencial, mas ter atitude é o que faz a diferença.")
+Utilizador.create(:id =>"3", :nome => "Filipe", :data_nascimento => DateTime.parse("09/01/1991 17:00"), :localidade => "Caparica", :email => "sou_um_email@mail.com", :telefone => "444555666", :privacidade =>"0", :frase =>"fraaaase")
+Utilizador.create(:id =>"4", :nome => "Daniel", :data_nascimento => DateTime.parse("02/03/1989 17:00"), :localidade => "Almada", :email => "sou_outro_email@mail.com", :telefone => "777888999", :privacidade =>"0", :frase =>"frase ssssss")
+Utilizador.create(:id =>"5", :nome => "Joao", :data_nascimento => DateTime.parse("02/04/1991 17:00"), :localidade => "Monte", :email => "outro_email@mail.com", :telefone => "777888999", :privacidade =>"0", :frase =>"frase ssssss")
 
 Noticium.create(:utilizador_id =>"2", :img =>"imagem.jpg", :titulo => "Titulo Sample", :texto => "era uma x...")
 Noticium.create(:utilizador_id =>"3", :img =>"imagem.jpg", :titulo => "Titulo Sample", :texto => "era uma y...")
@@ -37,8 +38,11 @@ Empresa.create(:id=>"2", :nome => "Xerox", :historia => "foi em 1995 que larry a
 Emprego.create(:utilizador_id => "2", :empresa_id=>"1", :cargo=>"Manda chuva", :data_entrada=> DateTime.parse("15/02/2009 17:00"), :data_saida=> DateTime.parse("15/02/2012 17:00"))
 Emprego.create(:utilizador_id => "3", :empresa_id=>"2", :cargo=>"Manda chuva", :data_entrada=> DateTime.parse("15/02/2009 17:00"), :data_saida=> DateTime.parse("15/02/2012 17:00"))
 Emprego.create(:utilizador_id => "4", :empresa_id=>"1", :cargo=>"Developer", :data_entrada=> DateTime.parse("15/02/2009 17:00"), :data_saida=> DateTime.parse("15/02/2012 17:00"))
+Emprego.create(:utilizador_id => "5", :empresa_id=>"1", :cargo=>"Developer", :data_entrada=> DateTime.parse("15/02/2009 17:00"), :data_saida=> DateTime.parse("15/02/2012 17:00"))
 
 Contacto.create(:utilizador_id =>"2", :utilizador2_id =>"3", :estado =>"Aceite")
 Contacto.create(:utilizador_id =>"3", :utilizador2_id =>"2", :estado =>"Aceite")
+Contacto.create(:utilizador_id =>"2", :utilizador2_id =>"5", :estado =>"Aceite")
+Contacto.create(:utilizador_id =>"5", :utilizador2_id =>"2", :estado =>"Aceite")
 Contacto.create(:utilizador_id =>"2", :utilizador2_id =>"4", :estado =>"Pendente")
 Contacto.create(:utilizador_id =>"4", :utilizador2_id =>"2", :estado =>"Pendente")

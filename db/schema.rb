@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131129224310) do
+ActiveRecord::Schema.define(version: 20131203151731) do
 
   create_table "competencia", force: true do |t|
     t.integer  "utilizador_id"
@@ -21,11 +21,11 @@ ActiveRecord::Schema.define(version: 20131129224310) do
   end
 
   create_table "contactos", force: true do |t|
-    t.integer  "utilizador1_id"
-    t.string   "utilizador2_id"
     t.string   "estado"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "utilizador_id"
+    t.integer  "utilizador2_id"
   end
 
   create_table "cursos", force: true do |t|
@@ -78,6 +78,8 @@ ActiveRecord::Schema.define(version: 20131129224310) do
     t.integer  "telefone"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "frase"
+    t.integer  "privacidade"
   end
 
 end
