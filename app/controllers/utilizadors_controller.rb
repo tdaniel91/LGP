@@ -1,6 +1,7 @@
 class UtilizadorsController < ApplicationController
   before_action :set_utilizador, only: [:show, :edit, :update, :destroy]
 
+
   # GET /utilizadors
   # GET /utilizadors.json
   def index

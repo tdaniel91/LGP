@@ -19,6 +19,12 @@ Utilizador.create(:id =>"3", :nome => "Filipe", :data_nascimento => DateTime.par
 Utilizador.create(:id =>"4", :nome => "Daniel", :data_nascimento => DateTime.parse("02/03/1989 17:00"), :localidade => "Almada", :email => "sou_outro_email@mail.com", :telefone => "777888999", :privacidade =>"0", :frase =>"frase ssssss")
 Utilizador.create(:id =>"5", :nome => "Joao", :data_nascimento => DateTime.parse("02/04/1991 17:00"), :localidade => "Monte", :email => "outro_email@mail.com", :telefone => "777888999", :privacidade =>"0", :frase =>"frase ssssss")
 
+password = '12345678'
+new_hashed_password = Utilizador.new(:password => password).encrypted_password
+Utilizador.create(:nome =>"Tiago",:data_nascimento => DateTime.parse("02/04/1991 17:00"), :localidade => "Monte", :email => "outro_email@mail.com",  :encrypted_password=>new_hashed_password, :password_confirmation => "foobar",:telefone => "777888999", :privacidade =>"0", :frase =>"frase ssssss")
+
+
+
 Noticium.create(:utilizador_id =>"2", :img =>"imagem.jpg", :titulo => "Titulo Sample", :texto => "era uma x...")
 Noticium.create(:utilizador_id =>"3", :img =>"imagem.jpg", :titulo => "Titulo Sample", :texto => "era uma y...")
 Noticium.create(:utilizador_id =>"2", :img =>"imagem.jpg", :titulo => "Titulo Sample", :texto => "era uma z...")

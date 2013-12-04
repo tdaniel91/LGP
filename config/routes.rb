@@ -1,4 +1,5 @@
 LGP::Application.routes.draw do
+  devise_for :utilizadors
   resources :competencia
 
   resources :cursos
