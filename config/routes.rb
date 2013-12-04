@@ -1,5 +1,5 @@
 LGP::Application.routes.draw do
-  devise_for :utilizadors
+
   resources :competencia
 
   resources :cursos
@@ -16,6 +16,13 @@ LGP::Application.routes.draw do
 
   get "home/index"
   root :to => "home#index"
+
+
+  #devise_for :utilizadors
+  devise_for :utilizadors, :path => "auth", :path_names => { :sign_in => 'login', :sign_out => 'logout', :password => 'secret', :confirmation => 'verification', :unlock => 'unblock', :registration => 'register', :sign_up => 'cmon_let_me_in' }
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

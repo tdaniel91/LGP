@@ -1,8 +1,11 @@
+#class Utilizadors::RegistationController < Devise::RegistrationsController
 class UtilizadorsController < ApplicationController
+#class Admins::SessionsController < Devise::SessionsController
   before_action :set_utilizador, only: [:show, :edit, :update, :destroy]
 
 
-  # GET /utilizadors
+
+    # GET /utilizadors
   # GET /utilizadors.json
   def index
     @utilizadors = Utilizador.all
@@ -66,7 +69,7 @@ class UtilizadorsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_utilizador
       @utilizador = Utilizador.find(params[:id])
-
+     # @utilizador = @current_utilizador
       @noticias = @utilizador.noticium
       @competencias = @utilizador.competencium
       @cursos = @utilizador.curso
