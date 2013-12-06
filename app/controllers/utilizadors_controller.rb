@@ -81,7 +81,9 @@ class UtilizadorsController < ApplicationController
           @contactos_aceites.push(c)
         end
       end
-      @colegas = Empresa.find(@empregos.last.empresa_id).emprego
+      if !(@empregos.size)==0
+        @colegas = Empresa.find(@empregos.last.empresa_id).emprego
+      end
 #      @contactos_colegas = Array.new
 #      @contactos_aceites.each do |c|
 #        if @empregos.last == Utilizador.find(c.utilizador2_id).emprego.last

@@ -59,15 +59,25 @@
 <hr>
 
 <strong>Contactos</strong>
-<% @contactos_aceites.each do |c| %>
-    <p><b> <%= link_to Utilizador.find(c.utilizador2_id).nome, Utilizador.find(c.utilizador2_id) %> </b>
-      - <%= c.estado %>  </p>
+<%if @contactos_aceites.size==0 %>
+    <p>De momento não tem nenhum contacto na sua rede! Adicione <%= link_to "contactos", utilizadors_path %>!</p>
+<% else %>
+    <% @contactos_aceites.each do |c| %>
+        <p><b> <%= link_to Utilizador.find(c.utilizador2_id).nome, Utilizador.find(c.utilizador2_id) %> </b>
+          - <%= c.estado %>  </p>
+    <% end %>
 <% end %>
 <hr>
+
 <strong>Colegas</strong>
-<% @colegas.each do |c| #TODO CONFIRMAR %>
-    <p><b> <%= link_to Utilizador.find(c.utilizador_id).nome, Utilizador.find(c.utilizador_id) %> </b>
-      - <%= c.cargo %>  </p>
+<%if @empregos.size==0 #TODO ADICIONAR CONDICAO PARA CONFIRMAR SE TEM COLEGAS%>
+    <p>De momento não tem nenhum emprego! Edite o seu <%= link_to "perfil", edit_utilizador_registration_path %>!</p>
+<% else %>
+    <%if Empresa.find(@empregos.last.empresa_id).emprego.size==1 #TODO ADICIONAR CONDICAO PARA CONFIRMAR SE TEM COLEGAS%>
+        <p>A sua empresa actual não tem funcionários</p>
+    <% else %>
+                            <%  #TODO CODIGO COPIADO PARA BLOCO %>
+    <% end %>
 <% end %>
 <hr>
 <hr>
